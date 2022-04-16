@@ -1,5 +1,5 @@
-import CheckItem from './CheckItem';
-import LineGraph from './LineGraph';
+import CheckItem from '../Molecules/CheckItem';
+import LineGraph from '../Molecules/LineGraph';
 import { useState, useEffect } from 'react';
 import instance from '../../utils/instance';
 
@@ -44,8 +44,6 @@ const Graph = () => {
       {
         population.map((item) => value['data'].push(item['value']));
       }
-      console.log(population);
-      console.log(value);
       setData([...data, value]);
     }
 

@@ -2,7 +2,6 @@ import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 
 const LineGraph = ({ data }) => {
-  console.log(data);
   const options = {
     chart: {
       defaultSeriesType: 'line',
