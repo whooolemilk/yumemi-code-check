@@ -8,7 +8,6 @@ function MyApp({ Component, pageProps }) {
         <title>都道府県別の総人口推移グラフ</title>
       </Head>
       <Component {...pageProps} />
-      );
     </>
   );
 }
