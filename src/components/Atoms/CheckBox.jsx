@@ -1,8 +1,8 @@
-const CheckBox = ({ name }) => {
+const CheckBox = ({ name, value, onChange }) => {
   return (
     <>
-      <input type='checkbox' id='Prefecture' name='Prefecture' />
-      <label htmlFor='Prefecture'>{name}</label>
+      <input type='checkbox' name={name} value={value} onChange={onChange} />
+      <label htmlFor={value}>{name}</label>
     </>
   );
 };
