@@ -15,7 +15,6 @@ const options = {
     title: {
       text: '年度',
     },
-    //categories: categories,
   },
   yAxis: {
     title: {
