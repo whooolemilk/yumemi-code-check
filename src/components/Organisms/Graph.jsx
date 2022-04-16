@@ -17,7 +17,7 @@ const Graph = () => {
       };
       fetchData();
     }
-  }, []);
+  }, [prefs.length]);
 
   // CheckBoxのイベントハンドラ
   const handleChange = async (event) => {
