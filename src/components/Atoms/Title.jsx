@@ -8,7 +8,7 @@ const Title = () => {
       <div className={styles.wrapper}>
         <div className={styles.icon}>
           <Image
-            src='/../public/kkrn_icon_graph_1.png'
+            src='https://resas-population-graph-three.vercel.app/kkrn_icon_graph_1.png'
             alt='graph'
             width={50}
             height={50}
