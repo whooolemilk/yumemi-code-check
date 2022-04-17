@@ -2,6 +2,7 @@ import CheckItem from '../Molecules/CheckItem';
 import LineGraph from '../Molecules/LineGraph';
 import { useState, useEffect } from 'react';
 import instance from '../../utils/instance';
+import styles from '../../styles/Graph.module.css';
 
 const Graph = () => {
   // 都道府県のデータ
@@ -58,10 +59,10 @@ const Graph = () => {
   };
 
   return (
-    <>
+    <div className={styles.container}>
       <CheckItem prefData={prefs} onChange={handleChange} />
       <LineGraph data={data} />
-    </>
+    </div>
   );
 };
 

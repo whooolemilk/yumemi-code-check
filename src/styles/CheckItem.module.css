@@ -1,0 +1,19 @@
+.container {
+  width: 70%;
+  //text-align: center;
+  margin: 1rem auto;
+  padding: 2rem;
+  border-radius: 30px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 480px) {
+  /* 480px以下に適用されるCSS（スマホ用） */
+  .container {
+    width: 90%;
+    padding: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

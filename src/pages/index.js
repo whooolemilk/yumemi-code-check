@@ -1,12 +1,11 @@
 import Title from '../components/Atoms/Title';
-import CheckItem from '../components/Molecules/CheckItem';
-import LineGraph from '../components/Molecules/LineGraph';
+import styles from '../styles/Home.module.css';
 import Graph from '../components/Organisms/Graph';
 export default function Home() {
   return (
-    <>
+    <div className={styles.container}>
       <Title />
       <Graph />
-    </>
+    </div>
   );
 }

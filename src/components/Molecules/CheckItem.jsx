@@ -1,8 +1,9 @@
 import CheckBox from '../Atoms/CheckBox';
+import styles from '../../styles/CheckItem.module.css';
 
 const CheckItem = ({ prefData, onChange }) => {
   return (
-    <div>
+    <div className={styles.container}>
       {prefData.map((item, i) => (
         <CheckBox
           name={item.prefName}
