@@ -1,0 +1,15 @@
+.container {
+  width: 70%;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 30px;
+  margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+  /* 480px以下に適用されるCSS（スマホ用） */
+  .container {
+    width: 90%;
+    padding: 2rem;
+  }
+}

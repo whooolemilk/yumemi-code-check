@@ -1,5 +1,6 @@
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
+import styles from '../../styles/LineGraph.module.css';
 
 const LineGraph = ({ data }) => {
   const options = {
@@ -41,7 +42,7 @@ const LineGraph = ({ data }) => {
   };
 
   return (
-    <div>
+    <div className={styles.container}>
       <HighchartsReact highcharts={Highcharts} options={options} />
     </div>
   );
