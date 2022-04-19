@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --dir src",
+    "test": "jest",
+    "update": "yarn test --updateSnapshot",
     "lint:fix": "eslint src --ext .js,jsx,.ts,.tsx --fix",
     "format": "prettier --write --ignore-path .gitignore \"./**/**/*.{js,jsx,ts,tsx,json,css}\""
   },
@@ -19,9 +21,12 @@
     "react-dom": "18.0.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
     "eslint": "8.13.0",
     "eslint-config-next": "12.1.5",
     "eslint-config-prettier": "^8.5.0",
+    "jest": "^27.5.1",
     "prettier": "^2.6.2"
   }
 }

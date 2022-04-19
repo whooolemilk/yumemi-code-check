@@ -1,5 +1,5 @@
-import CheckItem from '../Molecules/CheckItem';
-import LineGraph from '../Molecules/LineGraph';
+import CheckItem from '../molecules/CheckItem';
+import LineGraph from '../molecules/LineGraph';
 import { useState, useEffect } from 'react';
 import instance from '../../utils/instance';
 import styles from '../../styles/Graph.module.css';

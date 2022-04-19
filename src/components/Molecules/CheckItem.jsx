@@ -1,4 +1,4 @@
-import CheckBox from '../Atoms/CheckBox';
+import CheckBox from '../atoms/CheckBox';
 import styles from '../../styles/CheckItem.module.css';
 
 const CheckItem = ({ prefData, onChange }) => {
