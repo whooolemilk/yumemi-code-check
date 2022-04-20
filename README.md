@@ -11,24 +11,19 @@ https://resas-population-graph-three.vercel.app/
 - 都道府県にチェックを入れると、RESAS API から選択された都道府県の「人口構成」を取得する
 - 人口構成 API レスポンスから、X 軸:年、Y 軸:人口数の折れ線グラフを動的に生成して表示する
 
-## 環境変数
-
-RESAS-API の API キーを，プロジェクト直下の.env ファイルに記載
+## 環境構築
 
 ```
-RESAS_API_KEY = 'xxxxxxxxxxxxxxxxxxxx'
-```
-
-## Build Setup
-
-```
-# install dependencies
+# 依存関係のインストール
 $ yarn install
 
-# serve with hot reload at localhost:3000
+# localhost:3000の起動
 $ yarn dev
 
-# Snapshot test
+# スナップショットテストの実行
 $ yarn test
+
+# .envファイルの作成
+$ copy .env.example .env
 
 ```
