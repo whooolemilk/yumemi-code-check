@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import LineGraph from '../../../src/components/molecules/LineGraph';
+import LineGraph from '../../../src/components/Molecules/LineGraph';
 import Highcharts from 'highcharts';
 
 describe('LineGraph', () => {

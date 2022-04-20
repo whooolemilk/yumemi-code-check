@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import CheckItem from '../../../src/components/molecules/CheckItem';
+import CheckItem from '../../../src/components/Molecules/CheckItem';
 
 describe('CheckItem', () => {
   it('renders correctly', () => {

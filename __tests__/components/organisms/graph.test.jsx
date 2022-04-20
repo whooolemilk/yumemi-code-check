@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import Graph from '../../../src/components/organisms/Graph';
+import Graph from '../../../src/components/Organisms/Graph';
 import Highcharts from 'highcharts';
 
 describe('CheckItem', () => {

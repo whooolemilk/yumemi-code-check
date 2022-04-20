@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import CheckBox from '../../../src/components/atoms/CheckBox';
+import CheckBox from '../../../src/components/Atoms/CheckBox';
 
 describe('CheckBox', () => {
   it('renders correctly', () => {
